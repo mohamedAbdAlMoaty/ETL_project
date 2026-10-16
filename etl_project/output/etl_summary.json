@@ -1,0 +1,809 @@
+{
+  "total_revenue": 1265793.02,
+  "order_lines": 2155,
+  "orders": 830,
+  "customers": 89,
+  "summaries": {
+    "revenue_by_category": [
+      {
+        "category_name": "Beverages",
+        "revenue": 267868.18,
+        "units": 9532,
+        "orders": 354
+      },
+      {
+        "category_name": "Dairy Products",
+        "revenue": 234507.29,
+        "units": 9149,
+        "orders": 303
+      },
+      {
+        "category_name": "Confections",
+        "revenue": 167357.2,
+        "units": 7906,
+        "orders": 295
+      },
+      {
+        "category_name": "Meat/Poultry",
+        "revenue": 163022.35,
+        "units": 4199,
+        "orders": 161
+      },
+      {
+        "category_name": "Seafood",
+        "revenue": 131261.73,
+        "units": 7681,
+        "orders": 291
+      },
+      {
+        "category_name": "Condiments",
+        "revenue": 106047.11,
+        "units": 5298,
+        "orders": 193
+      },
+      {
+        "category_name": "Produce",
+        "revenue": 99984.58,
+        "units": 2990,
+        "orders": 129
+      },
+      {
+        "category_name": "Grains/Cereals",
+        "revenue": 95744.58,
+        "units": 4562,
+        "orders": 182
+      }
+    ],
+    "revenue_by_country": [
+      {
+        "customer_country": "USA",
+        "revenue": 245584.62,
+        "customers": 13
+      },
+      {
+        "customer_country": "Germany",
+        "revenue": 230284.63,
+        "customers": 11
+      },
+      {
+        "customer_country": "Austria",
+        "revenue": 128003.85,
+        "customers": 2
+      },
+      {
+        "customer_country": "Brazil",
+        "revenue": 106925.78,
+        "customers": 9
+      },
+      {
+        "customer_country": "France",
+        "revenue": 81358.32,
+        "customers": 10
+      },
+      {
+        "customer_country": "UK",
+        "revenue": 58971.32,
+        "customers": 7
+      },
+      {
+        "customer_country": "Venezuela",
+        "revenue": 56810.62,
+        "customers": 4
+      },
+      {
+        "customer_country": "Sweden",
+        "revenue": 54495.12,
+        "customers": 2
+      },
+      {
+        "customer_country": "Canada",
+        "revenue": 50196.29,
+        "customers": 3
+      },
+      {
+        "customer_country": "Ireland",
+        "revenue": 49979.91,
+        "customers": 1
+      },
+      {
+        "customer_country": "Belgium",
+        "revenue": 33824.86,
+        "customers": 2
+      },
+      {
+        "customer_country": "Denmark",
+        "revenue": 32661.02,
+        "customers": 2
+      },
+      {
+        "customer_country": "Switzerland",
+        "revenue": 31692.64,
+        "customers": 2
+      },
+      {
+        "customer_country": "Mexico",
+        "revenue": 23582.07,
+        "customers": 5
+      },
+      {
+        "customer_country": "Finland",
+        "revenue": 18810.05,
+        "customers": 2
+      },
+      {
+        "customer_country": "Spain",
+        "revenue": 17983.2,
+        "customers": 4
+      },
+      {
+        "customer_country": "Italy",
+        "revenue": 15770.16,
+        "customers": 3
+      },
+      {
+        "customer_country": "Portugal",
+        "revenue": 11472.36,
+        "customers": 2
+      },
+      {
+        "customer_country": "Argentina",
+        "revenue": 8119.1,
+        "customers": 3
+      },
+      {
+        "customer_country": "Norway",
+        "revenue": 5735.15,
+        "customers": 1
+      },
+      {
+        "customer_country": "Poland",
+        "revenue": 3531.95,
+        "customers": 1
+      }
+    ],
+    "revenue_by_month": [
+      {
+        "order_month": "1996-07",
+        "revenue": 27861.89
+      },
+      {
+        "order_month": "1996-08",
+        "revenue": 25485.28
+      },
+      {
+        "order_month": "1996-09",
+        "revenue": 26381.4
+      },
+      {
+        "order_month": "1996-10",
+        "revenue": 37515.73
+      },
+      {
+        "order_month": "1996-11",
+        "revenue": 45600.04
+      },
+      {
+        "order_month": "1996-12",
+        "revenue": 45239.63
+      },
+      {
+        "order_month": "1997-01",
+        "revenue": 61258.08
+      },
+      {
+        "order_month": "1997-02",
+        "revenue": 38483.64
+      },
+      {
+        "order_month": "1997-03",
+        "revenue": 38547.21
+      },
+      {
+        "order_month": "1997-04",
+        "revenue": 53032.95
+      },
+      {
+        "order_month": "1997-05",
+        "revenue": 53781.29
+      },
+      {
+        "order_month": "1997-06",
+        "revenue": 36362.79
+      },
+      {
+        "order_month": "1997-07",
+        "revenue": 51020.86
+      },
+      {
+        "order_month": "1997-08",
+        "revenue": 47287.68
+      },
+      {
+        "order_month": "1997-09",
+        "revenue": 55629.26
+      },
+      {
+        "order_month": "1997-10",
+        "revenue": 66749.23
+      },
+      {
+        "order_month": "1997-11",
+        "revenue": 43533.8
+      },
+      {
+        "order_month": "1997-12",
+        "revenue": 71398.44
+      },
+      {
+        "order_month": "1998-01",
+        "revenue": 94222.1
+      },
+      {
+        "order_month": "1998-02",
+        "revenue": 99415.28
+      },
+      {
+        "order_month": "1998-03",
+        "revenue": 104854.15
+      },
+      {
+        "order_month": "1998-04",
+        "revenue": 123798.67
+      },
+      {
+        "order_month": "1998-05",
+        "revenue": 18333.62
+      }
+    ],
+    "delivery_performance": [
+      {
+        "delivery_status": "On Time",
+        "orders": 772
+      },
+      {
+        "delivery_status": "Late",
+        "orders": 37
+      },
+      {
+        "delivery_status": "Not Shipped",
+        "orders": 21
+      }
+    ],
+    "customer_tiers": [
+      {
+        "customer_tier": "Gold",
+        "customer_id": "QUICK",
+        "company_name": "QUICK-Stop",
+        "revenue": 110277.32
+      },
+      {
+        "customer_tier": "Gold",
+        "customer_id": "ERNSH",
+        "company_name": "Ernst Handel",
+        "revenue": 104874.99
+      },
+      {
+        "customer_tier": "Gold",
+        "customer_id": "SAVEA",
+        "company_name": "Save-a-lot Markets",
+        "revenue": 104361.96
+      },
+      {
+        "customer_tier": "Gold",
+        "customer_id": "RATTC",
+        "company_name": "Rattlesnake Canyon Grocery",
+        "revenue": 51097.79
+      },
+      {
+        "customer_tier": "Gold",
+        "customer_id": "HUNGO",
+        "company_name": "Hungry Owl All-Night Grocers",
+        "revenue": 49979.91
+      },
+      {
+        "customer_tier": "Gold",
+        "customer_id": "HANAR",
+        "company_name": "Hanari Carnes",
+        "revenue": 32841.37
+      },
+      {
+        "customer_tier": "Gold",
+        "customer_id": "KOENE",
+        "company_name": "K\u00f6niglich Essen",
+        "revenue": 30908.38
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "FOLKO",
+        "company_name": "Folk och f\u00e4 HB",
+        "revenue": 29567.55
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "MEREP",
+        "company_name": "M\u00e8re Paillarde",
+        "revenue": 28872.19
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "WHITC",
+        "company_name": "White Clover Markets",
+        "revenue": 27363.6
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "FRANK",
+        "company_name": "Frankenversand",
+        "revenue": 26656.55
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "QUEEN",
+        "company_name": "Queen Cozinha",
+        "revenue": 25717.5
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "BERGS",
+        "company_name": "Berglunds snabbk\u00f6p",
+        "revenue": 24927.57
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "SUPRD",
+        "company_name": "Supr\u00eames d\u00e9lices",
+        "revenue": 24088.78
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "PICCO",
+        "company_name": "Piccolo und mehr",
+        "revenue": 23128.86
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "HILAA",
+        "company_name": "HILARION-Abastos",
+        "revenue": 22768.76
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "BONAP",
+        "company_name": "Bon app'",
+        "revenue": 21963.25
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "BOTTM",
+        "company_name": "Bottom-Dollar Markets",
+        "revenue": 20801.6
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "RICSU",
+        "company_name": "Richter Supermarkt",
+        "revenue": 19343.76
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "LEHMS",
+        "company_name": "Lehmanns Marktstand",
+        "revenue": 19261.41
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "BLONP",
+        "company_name": "Blondesddsl p\u00e8re et fils",
+        "revenue": 18534.08
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "GREAL",
+        "company_name": "Great Lakes Food Market",
+        "revenue": 18507.46
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "SIMOB",
+        "company_name": "Simons bistro",
+        "revenue": 16817.1
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "LINOD",
+        "company_name": "LINO-Delicateses",
+        "revenue": 16476.56
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "SEVES",
+        "company_name": "Seven Seas Imports",
+        "revenue": 16215.33
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "LILAS",
+        "company_name": "LILA-Supermercado",
+        "revenue": 16076.6
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "VAFFE",
+        "company_name": "Vaffeljernet",
+        "revenue": 15843.92
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "WARTH",
+        "company_name": "Wartian Herkku",
+        "revenue": 15648.7
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "OLDWO",
+        "company_name": "Old World Delicatessen",
+        "revenue": 15177.47
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "EASTC",
+        "company_name": "Eastern Connection",
+        "revenue": 14761.04
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "AROUT",
+        "company_name": "Around the Horn",
+        "revenue": 13390.65
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "OTTIK",
+        "company_name": "Ottilies K\u00e4seladen",
+        "revenue": 12496.19
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "RICAR",
+        "company_name": "Ricardo Adocicados",
+        "revenue": 12450.8
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "CHOPS",
+        "company_name": "Chop-suey Chinese",
+        "revenue": 12348.88
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "FOLIG",
+        "company_name": "Folies gourmandes",
+        "revenue": 11666.9
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "GODOS",
+        "company_name": "Godos Cocina T\u00edpica",
+        "revenue": 11446.36
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "SPLIR",
+        "company_name": "Split Rail Beer & Ale",
+        "revenue": 11441.63
+      },
+      {
+        "customer_tier": "Silver",
+        "customer_id": "TORTU",
+        "company_name": "Tortuga Restaurante",
+        "revenue": 10812.15
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "MAISD",
+        "company_name": "Maison Dewey",
+        "revenue": 9736.08
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "WANDK",
+        "company_name": "Die Wandernde Kuh",
+        "revenue": 9588.43
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "LAMAI",
+        "company_name": "La maison d'Asie",
+        "revenue": 9328.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "VICTE",
+        "company_name": "Victuailles en stock",
+        "revenue": 9182.43
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "GOURL",
+        "company_name": "Gourmet Lanchonetes",
+        "revenue": 8414.14
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "MAGAA",
+        "company_name": "Magazzini Alimentari Riuniti",
+        "revenue": 7176.22
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "REGGC",
+        "company_name": "Reggiani Caseifici",
+        "revenue": 7048.24
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "ANTON",
+        "company_name": "Antonio Moreno Taquer\u00eda",
+        "revenue": 7023.97
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "TRADH",
+        "company_name": "Tradi\u00e7\u00e3o Hipermercados",
+        "revenue": 6850.66
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "QUEDE",
+        "company_name": "Que Del\u00edcia",
+        "revenue": 6664.81
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "FURIB",
+        "company_name": "Furia Bacalhau e Frutos do Mar",
+        "revenue": 6427.42
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "ISLAT",
+        "company_name": "Island Trading",
+        "revenue": 6146.3
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "BSBEV",
+        "company_name": "B's Beverages",
+        "revenue": 6089.9
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "WELLI",
+        "company_name": "Wellington Importadora",
+        "revenue": 6068.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "SANTG",
+        "company_name": "Sant\u00e9 Gourmet",
+        "revenue": 5735.15
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "PRINI",
+        "company_name": "Princesa Isabel Vinhos",
+        "revenue": 5044.94
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "MORGK",
+        "company_name": "Morgenstern Gesundkost",
+        "revenue": 5042.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "TOMSP",
+        "company_name": "Toms Spezialit\u00e4ten",
+        "revenue": 4778.14
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "ALFKI",
+        "company_name": "Alfreds Futterkiste",
+        "revenue": 4273.0
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "LONEP",
+        "company_name": "Lonesome Pine Restaurant",
+        "revenue": 4258.6
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "PERIC",
+        "company_name": "Pericles Comidas cl\u00e1sicas",
+        "revenue": 4242.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "BOLID",
+        "company_name": "B\u00f3lido Comidas preparadas",
+        "revenue": 4232.85
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "FAMIA",
+        "company_name": "Familia Arquibaldo",
+        "revenue": 4107.55
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "COMMI",
+        "company_name": "Com\u00e9rcio Mineiro",
+        "revenue": 3810.75
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "DRACD",
+        "company_name": "Drachenblut Delikatessen",
+        "revenue": 3763.21
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "WOLZA",
+        "company_name": "Wolski  Zajazd",
+        "revenue": 3531.95
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "OCEAN",
+        "company_name": "Oc\u00e9ano Atl\u00e1ntico Ltda.",
+        "revenue": 3460.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "THEBI",
+        "company_name": "The Big Cheese",
+        "revenue": 3361.0
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "BLAUS",
+        "company_name": "Blauer See Delikatessen",
+        "revenue": 3239.8
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "FRANR",
+        "company_name": "France restauration",
+        "revenue": 3172.16
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "WILMK",
+        "company_name": "Wilman Kala",
+        "revenue": 3161.35
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "LETSS",
+        "company_name": "Let's Stop N Shop",
+        "revenue": 3076.47
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "HUNGC",
+        "company_name": "Hungry Coyote Import Store",
+        "revenue": 3063.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "RANCH",
+        "company_name": "Rancho grande",
+        "revenue": 2844.1
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "SPECD",
+        "company_name": "Sp\u00e9cialit\u00e9s du monde",
+        "revenue": 2423.35
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "LACOR",
+        "company_name": "La corne d'abondance",
+        "revenue": 1992.05
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "THECR",
+        "company_name": "The Cracker Box",
+        "revenue": 1947.24
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "CACTU",
+        "company_name": "Cactus Comidas para llevar",
+        "revenue": 1814.8
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "CONSH",
+        "company_name": "Consolidated Holdings",
+        "revenue": 1719.1
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "DUMON",
+        "company_name": "Du monde entier",
+        "revenue": 1615.9
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "TRAIH",
+        "company_name": "Trail's Head Gourmet Provisioners",
+        "revenue": 1571.2
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "FRANS",
+        "company_name": "Franchi S.p.A.",
+        "revenue": 1545.7
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "GROSR",
+        "company_name": "GROSELLA-Restaurante",
+        "revenue": 1488.7
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "VINET",
+        "company_name": "Vins et alcools Chevalier",
+        "revenue": 1480.0
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "ROMEY",
+        "company_name": "Romero y tomillo",
+        "revenue": 1467.29
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "ANATR",
+        "company_name": "Ana Trujillo Emparedados y helados",
+        "revenue": 1402.95
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "GALED",
+        "company_name": "Galer\u00eda del gastr\u00f3nomo",
+        "revenue": 836.7
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "NORTS",
+        "company_name": "North/South",
+        "revenue": 649.0
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "LAUGB",
+        "company_name": "Laughing Bacchus Wine Cellars",
+        "revenue": 522.5
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "LAZYK",
+        "company_name": "Lazy K Kountry Store",
+        "revenue": 357.0
+      },
+      {
+        "customer_tier": "Bronze",
+        "customer_id": "CENTC",
+        "company_name": "Centro comercial Moctezuma",
+        "revenue": 100.8
+      }
+    ]
+  }
+}

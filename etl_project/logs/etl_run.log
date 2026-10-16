@@ -1,0 +1,40 @@
+2026-10-16 12:39:12,751 [INFO] === ETL run started ===
+2026-10-16 12:39:12,752 [INFO] START  0. download sample data
+2026-10-16 12:39:12,752 [INFO] already downloaded: orders.csv
+2026-10-16 12:39:12,753 [INFO] already downloaded: order_details.csv
+2026-10-16 12:39:12,753 [INFO] already downloaded: customers.csv
+2026-10-16 12:39:12,753 [INFO] already downloaded: products.csv
+2026-10-16 12:39:12,753 [INFO] already downloaded: categories.csv
+2026-10-16 12:39:12,753 [INFO] DONE   0. download sample data (0.00s)
+2026-10-16 12:39:12,754 [INFO] START  1. extract (read all CSVs)
+2026-10-16 12:39:12,774 [INFO] read categories.csv: 8 rows x 4 columns
+2026-10-16 12:39:12,796 [INFO] read customers.csv: 91 rows x 11 columns
+2026-10-16 12:39:12,824 [INFO] read order_details.csv: 2155 rows x 5 columns
+2026-10-16 12:39:12,851 [INFO] read orders.csv: 830 rows x 14 columns
+2026-10-16 12:39:12,873 [INFO] read products.csv: 77 rows x 10 columns
+2026-10-16 12:39:12,873 [INFO] DONE   1. extract (read all CSVs) (0.12s)
+2026-10-16 12:39:12,873 [INFO] START  2. clean
+2026-10-16 12:39:12,878 [INFO] profile categories: rows=8, duplicates=0, columns_with_missing=none
+2026-10-16 12:39:12,881 [INFO] profile customers: rows=91, duplicates=0, columns_with_missing={'region': 60, 'postalCode': 1, 'fax': 22}
+2026-10-16 12:39:12,884 [INFO] profile order_details: rows=2155, duplicates=0, columns_with_missing=none
+2026-10-16 12:39:12,890 [INFO] profile orders: rows=830, duplicates=0, columns_with_missing={'shippedDate': 21, 'shipRegion': 507, 'shipPostalCode': 19}
+2026-10-16 12:39:12,892 [INFO] profile products: rows=77, duplicates=0, columns_with_missing=none
+2026-10-16 12:39:12,911 [INFO] clean orders: 830 -> 830 rows (0 duplicates removed)
+2026-10-16 12:39:12,914 [INFO] clean order_details: 2155 -> 2155 rows (0 duplicates removed)
+2026-10-16 12:39:12,917 [INFO] clean customers: 91 -> 91 rows (0 duplicates removed)
+2026-10-16 12:39:12,921 [INFO] clean products: 77 -> 77 rows (0 duplicates removed)
+2026-10-16 12:39:12,924 [INFO] clean categories: 8 -> 8 rows (0 duplicates removed)
+2026-10-16 12:39:12,924 [INFO] DONE   2. clean (0.05s)
+2026-10-16 12:39:12,925 [INFO] START  3. merge
+2026-10-16 12:39:12,939 [INFO] merge: 2155 order lines x 20 columns, unmatched keys=0
+2026-10-16 12:39:12,939 [INFO] DONE   3. merge (0.01s)
+2026-10-16 12:39:12,940 [INFO] START  4. business logic
+2026-10-16 12:39:12,999 [INFO] business logic: total revenue=1,265,793.02; delivery={'On Time': 1990, 'Late': 92, 'Not Shipped': 73}; tiers={'Bronze': 51, 'Silver': 31, 'Gold': 7}
+2026-10-16 12:39:13,021 [INFO] summaries built: ['revenue_by_category', 'revenue_by_country', 'revenue_by_month', 'delivery_performance', 'customer_tiers']
+2026-10-16 12:39:13,021 [INFO] DONE   4. business logic (0.08s)
+2026-10-16 12:39:13,021 [INFO] START  5. save outputs
+2026-10-16 12:39:13,047 [INFO] saved CSV   -> etl_project\output\order_lines_clean.csv (409,047 bytes)
+2026-10-16 12:39:14,673 [INFO] saved Excel -> etl_project\output\etl_report.xlsx (298,381 bytes)
+2026-10-16 12:39:14,677 [INFO] saved JSON  -> etl_project\output\etl_summary.json (20,589 bytes)
+2026-10-16 12:39:14,678 [INFO] DONE   5. save outputs (1.66s)
+2026-10-16 12:39:14,678 [INFO] === ETL run finished OK in 1.93s ===
